@@ -1,0 +1,136 @@
+# =========================
+
+# Android / Kotlin .gitignore
+
+# Professional setup
+
+# =========================
+
+# Built files
+
+*.apk
+*.ap_
+*.aab
+*.dex
+*.class
+*.so
+
+# Gradle
+
+.gradle/
+build/
+**/build/
+
+# Local configuration
+
+local.properties
+
+# Android Studio
+
+.idea/
+*.iml
+.navigation/
+
+# Kotlin
+
+.kotlin/
+
+# Logs
+
+*.log
+
+# OS files
+
+.DS_Store
+Thumbs.db
+
+# Temporary files
+
+*.tmp
+*.temp
+
+# Generated files
+
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Signing files (VERY IMPORTANT not to upload)
+
+*.jks
+*.keystore
+
+# Firebase / Google Services (if added later)
+
+google-services.json
+
+# NDK
+
+obj/
+
+# Mac
+
+*.swp
+
+# IntelliJ
+
+out/
+
+# Test reports
+
+test-output/
+
+# Gradle cache
+
+.gradle-cache/
+
+# Android lint
+
+lint/intermediates/
+lint/generated/
+
+# Kotlin metadata
+
+*.kotlin_metadata
+
+# Backup files
+
+*.bak
+
+# Android profiler
+
+*.hprof
+
+# Room database schemas (optional)
+
+schemas/
+
+# VS Code (if used)
+
+.vscode/
+
+# Coverage reports
+
+coverage/
+
+# =========================
+
+# Optional but recommended
+
+# =========================
+
+# Release artifacts
+
+release/
+
+# Mapping files
+
+mapping/
+
+# Proguard outputs
+
+proguard/
+
+# Local env files
+
+.env
